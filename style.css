@@ -1,0 +1,92 @@
+/* FD */
+body {
+	padding-top: 70px;
+	color:black;
+	background-color:#FF8C00;
+	background-position:center center;
+}
+
+/* txt */
+em {
+	font-style: italic;
+}
+
+strong {
+	font-style: bold;
+}
+
+/* Plac text */
+
+.contact, .lead, .titre, .merci, .pop, .bienv, .imglrb, .imglrbc, .inscri, .adminco {
+	text-align: center;
+}
+
+
+.copy {
+	text-align: right;
+}
+
+
+
+/* couleurs */
+
+.span, .rouge, .titre, .contact, .bienv {
+	color : red;
+}
+
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+
+
+/* placement parag */
+
+section {
+	padding-bottom: 30px;
+}
+section, section header {
+	border-bottom: 1px solid #F1F1F1;
+}
+
+section header {
+	margin-bottom: 30px;
+}
+
+section header .titre {
+	font-weight: bold;
+	font-style: italic;
+}
+
+section .import {
+	font-size: 16px;
+	color: red;
+}
+
+.erreur {
+	font-weight: bold;
+	color: red;
+}
+
+table {
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+table, th {
+	background-color: white;
+	text-align: center;
+}
+
+.form-horizontal .control-label {
+	text-align: center;
+}
+
+[data-toggle="tooltip"] .underDotted {
+	border-bottom: 1px dotted black;
+}
